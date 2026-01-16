@@ -11,7 +11,7 @@
   overflow-y: auto;
   @include variables.custom-scrollbar;
 
-  @media (max-width: 480px) {
+  @media (max-width: 769px) {
     &:not(.mobile-cart .cart) {
       display: none;
     }
@@ -60,7 +60,7 @@
       transition: all 0.3s;
 
       @media (max-width: 768px) {
-        grid-template-columns: auto 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas: 
           "image details"
           "remove remove";
